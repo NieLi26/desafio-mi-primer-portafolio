@@ -1,0 +1,52 @@
+@use "../abstracts/variables" as v;
+
+// html {
+//     box-sizing: border-box;
+//     font-size: 62.5%;
+// }
+// *,
+// *::before,
+// *::after {
+//     box-sizing: inherit;
+// }
+body {
+    font-family: v.$fuentePrincipal;
+    // font-size: 1.6rem;
+}
+a {
+    text-decoration: none;
+    color: v.$black;
+}
+ul {
+    list-style: none;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+
+// h1,
+// h2,
+// h3 {
+//     color: v.$black;
+//     margin: 0 0 2rem 0;
+//     font-weight: 500;
+// }
+// h1 {
+//     font-size: 8rem;
+// }
+// h2 {
+//     font-size: 3rem;
+// }
+// h3 {
+//     font-size: 2rem;
+// }
+// p {
+//     font-family: v.$fuenteSecundaria;
+//     margin-top: 0;
+// }
+// .contenedor {
+//     // max-width: 128rem;
+//     width: 95%;
+//     margin: 0 auto;
+// }
